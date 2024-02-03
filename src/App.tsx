@@ -1,10 +1,10 @@
 import { Canvas } from '@react-three/fiber'
 import './App.css'
-import My3D from './My3D'
+import Geometry3D from './Geometry3D'
 
 function App() {
   return(<><Canvas>
-    <My3D/>
+    <Geometry3D/>
     </Canvas></>)
 }
 
